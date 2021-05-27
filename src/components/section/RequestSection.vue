@@ -44,6 +44,7 @@
                 this.request.lowestPercent = percent / 100;
             },
             align:function () {
+              // eslint-disable-next-line @typescript-eslint/no-this-alias
                 let model = this;
                 this.overlay = true;
                 this.entries = [];

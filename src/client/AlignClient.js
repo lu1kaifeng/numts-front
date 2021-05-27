@@ -6,4 +6,9 @@ export default class AlignClient {
             headers: { 'Content-Type': 'application/json' }
         })
     }
+    static getGene(){
+        return Axios.get('/Gene',{
+
+        })
+    }
 }
